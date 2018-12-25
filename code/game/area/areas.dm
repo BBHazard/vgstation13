@@ -440,7 +440,7 @@ var/area/space_area
 				//Note: areas adjacent to each other should have the same sounds to prevent cutoff when possible.- LastyScratch.
 				//TODO: This is dumb - N3X.
 				if(istype(src, /area/chapel))
-					sound = pick('sound/ambience/ambicha1.ogg', 'sound/ambience/ambicha2.ogg', 'sound/ambience/ambicha3.ogg', 'sound/ambience/ambicha4.ogg')
+					sound = pick('sound/ambience/ambicha1.ogg', 'sound/ambience/ambicha2.ogg', 'sound/ambience/ambicha3.ogg', 'sound/ambience/ambicha4.ogg', 'sound/ambience/ambicha5.ogg')
 				else if(istype(src, /area/medical/morgue))
 					sound = pick('sound/ambience/ambimo1.ogg', 'sound/ambience/ambimo2.ogg', 'sound/music/main.ogg')
 				else if(isspace(src))
